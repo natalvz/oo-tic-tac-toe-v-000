@@ -60,7 +60,7 @@ end
 
  def turn_count
    count = 0 
-   @board.count { |count| if count != " " counter += 1  
+   @board.count { |count| if count != " " counter += 1 end }
  end
  
  end
