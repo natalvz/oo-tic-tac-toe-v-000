@@ -53,6 +53,7 @@ end
   index = input_to_index(input)
   if valid_move?(index)
     current_player
+    move
 
     display_board
   end
