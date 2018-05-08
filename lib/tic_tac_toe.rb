@@ -111,7 +111,8 @@ if !won?.nil?
   end
   end
   
-    while !over?
+def play 
+  while !over?
   turn
   end
 if won?
