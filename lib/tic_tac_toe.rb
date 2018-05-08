@@ -41,6 +41,7 @@ end
  
  def valid_move?
    if 
+ end
  
  end
      
