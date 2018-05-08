@@ -40,7 +40,14 @@ end
  end
  
  def valid_move?
-
+   if index.between?(0,8) && position_taken?(@board,index) == false
+      return true
+    else
+      return false
+    end
+  else
+    return false
+  end 
  end
  
  end
