@@ -97,4 +97,6 @@ def full?
    !won? && full?
  end
  
+ def over?
+   
 end
