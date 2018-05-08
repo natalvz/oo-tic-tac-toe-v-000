@@ -114,7 +114,7 @@ def winner
       @board[token] == "O" }
       return "O"
     else 
-      nil
+      return nil
     end
   end
 end
