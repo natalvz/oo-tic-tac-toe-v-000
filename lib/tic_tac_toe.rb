@@ -51,6 +51,11 @@ end
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
+  if valid_move?(index)
+    return move(index, current_player
+    display_board
+  else turn
+  end
 end
 
  def turn_count
