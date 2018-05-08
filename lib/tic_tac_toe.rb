@@ -60,7 +60,7 @@ end
 
  def turn_count
    count = 0 
-   
+   @board.count
  end
  
  end
