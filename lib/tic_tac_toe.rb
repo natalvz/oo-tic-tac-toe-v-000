@@ -111,5 +111,18 @@ if !won?.nil?
   end
   end
   
-  
+    while !over?
+  turn
+  end
+if won?
+  if winner == "X"
+    return puts "Congratulations X!"
+  else 
+    return puts "Congratulations O!"
+  end
+else draw?
+  puts "Cat's Game!"
+end
+end
+
 end
