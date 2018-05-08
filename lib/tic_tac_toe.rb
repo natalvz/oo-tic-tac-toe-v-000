@@ -104,4 +104,7 @@ def full?
     return false
   end
 end
+
+def winner
+end 
 end
