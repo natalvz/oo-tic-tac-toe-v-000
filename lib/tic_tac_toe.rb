@@ -48,13 +48,7 @@ end
  end
  
  def turn(index)
-   input = gets.strip
-  index = input_to_index(input)
-  if valid_move?(index)
-    return move(index, player_token)
-    display_board
-  else turn(index)
-  end
+
 end
 
  def turn_count
