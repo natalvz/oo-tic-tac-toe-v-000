@@ -51,11 +51,9 @@ end
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
-  @board[index] = player_token
   if valid_move?(index)
     current_player
-    move(index, player_token)
-    
+
     display_board
   end
 end
