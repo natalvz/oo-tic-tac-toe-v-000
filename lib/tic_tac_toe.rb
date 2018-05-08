@@ -106,5 +106,13 @@ def full?
 end
 
 def winner
+  WIN_COMBINATIONS.each do |win_combination|
+    if win_combination.all? { |token|
+      @board[token] == "X" }
+      return "X"
+    elsif win_combination.all? { |token|
+      @board[token] == "O" }
+      return "O"
+    end
 end 
 end
