@@ -113,6 +113,8 @@ def winner
     elsif win_combination.all? { |token|
       @board[token] == "O" }
       return "O"
+    else 
+      nil
     end
   end
 end
