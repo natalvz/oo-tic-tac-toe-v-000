@@ -65,7 +65,7 @@ end
        counter += 1
      end
      end
-
+     return counter
  end
  
  end
