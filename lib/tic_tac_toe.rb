@@ -53,7 +53,7 @@ end
   index = input_to_index(input)
   if valid_move?(index)
     current_player
-    move(indexplayer_token)
+    move(index, player_token)
          @board[index] = player_token
     display_board
   end
