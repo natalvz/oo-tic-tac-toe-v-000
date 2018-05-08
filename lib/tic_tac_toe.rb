@@ -49,7 +49,7 @@ end
  
  def turn(index)
    
-   input_to_index = gets.strip
+   input = gets.strip
 end
 
  def turn_count
