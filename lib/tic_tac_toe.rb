@@ -89,4 +89,7 @@ end
      end
 end
 
+def full?
+   @board.all? {|cell| cell == "X" || cell == "O"}
+ end
 end
