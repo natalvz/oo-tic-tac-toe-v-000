@@ -81,14 +81,12 @@ end
      
      position_1 = @board[win_index_1]
      position_2 = @board[win_index_2]
-+      position_3 = @board[win_index_3]
-+    
-+      #----Check to make sure none are spaces
-+      position_not_taken = position_taken?(win_index_1) && position_taken?(win_index_2) && position_taken?(win_index_3)
-+    
-+      #----Check to see if all 3 elements are the same and are not spaces.
-+      position_1 == position_2 && position_2 == position_3 && position_not_taken
-+    end
+     position_3 = @board[win_index_3]
+     
+     position_not_taken = position_taken?(win_index_1) && position_taken?(win_index_2) && position_taken?(win_index_3)
+     
+     position_1 == position_2 && position_2 == position_3 && position_not_taken
+     end
 end
 
 end
