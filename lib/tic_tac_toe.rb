@@ -48,6 +48,7 @@ end
  end
  
  def turn(index)
+   
    input = gets.strip
 end
 
